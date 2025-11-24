@@ -28,7 +28,7 @@
     box-shadow: 20px 23px 79px 17px color(display-p3 0.4245 0.4407 0.4274 / 0.25);
     backdrop-filter: blur(10.5px);
     padding: 28px;
-    transition: all 80ms ease;
+    transition: all 250ms ease;
 }
 
 .card-txt  {
@@ -43,7 +43,7 @@
     line-height: normal;
     display: flex;
     flex-direction: column;
-    transition: all 80ms ease;
+    transition: all 250ms ease;
 }
 
 .div-cards {
@@ -109,14 +109,14 @@ background: linear-gradient(91deg, color(display-p3 1 1 1 / 0.51) 1.03%, color(d
 box-shadow: 20px 23px 79px 17px rgba(107, 113, 109, 0.25);
 box-shadow: 20px 23px 79px 17px color(display-p3 0.4245 0.4407 0.4274 / 0.25);
 backdrop-filter: blur(10.5px);
-transition: all 80ms ease;
+transition: all 250ms ease;
 }
 
 .hide-txt {
     opacity: 0;
     pointer-events: none;
     position: absolute;
-    transition: all 80ms ease;
+    transition: all 250ms ease;
 }
 
 
