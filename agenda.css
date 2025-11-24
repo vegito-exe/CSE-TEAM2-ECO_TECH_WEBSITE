@@ -1,0 +1,122 @@
+.agenda {
+    color: #006BC3;
+    color: color(display-p3 0.0392 0.4118 0.7412);
+    font-family: "Bagel Fat One";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 330px;
+    height: 400px;
+    border-radius: 60px;
+    border: 5px solid rgba(255, 255, 255, 0.00);
+    border: 5px solid color(display-p3 1 1 1 / 0.00);
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.51) 1.03%, #FFF 97.67%);
+    background: linear-gradient(91deg, color(display-p3 1 1 1 / 0.51) 1.03%, color(display-p3 1 1 1 / 0.00) 97.67%);
+    box-shadow: 20px 23px 79px 17px rgba(107, 113, 109, 0.25);
+    box-shadow: 20px 23px 79px 17px color(display-p3 0.4245 0.4407 0.4274 / 0.25);
+    backdrop-filter: blur(10.5px);
+    padding: 28px;
+    transition: all 250ms ease;
+}
+
+.card-txt  {
+    color: #006BC3;
+    color: color(display-p3 0.0392 0.4118 0.7412);
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    text-shadow: 0 4px 4px color(display-p3 0 0 0 / 0.25);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    transition: all 250ms ease;
+}
+
+.div-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap : 12px ;
+}
+
+.div-arrow {
+    cursor: pointer;
+    transition: all 10ms ease;
+    transform:scale(0.7);
+}
+
+.div-arrow:hover {
+    opacity: 0.7;
+}
+
+.div-arrow:active {
+    opacity: 0.5;
+}
+
+.date {
+    color: color(display-p3 0.0392 0.4118 0.7412);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.time {
+    color: color(display-p3 0.0392 0.4118 0.7412);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: 12.5%;
+    text-underline-offset: 25%;
+    text-underline-position: from-font;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.glass {
+width: 80px;
+height: 456px;
+flex-shrink: 0;
+border-radius: 60px;
+border: 5px solid rgba(255, 255, 255, 0.00);
+border: 5px solid color(display-p3 1 1 1 / 0.00);
+opacity: 0.9;
+background: linear-gradient(91deg, rgba(255, 255, 255, 0.51) 1.03%, #FFF 97.67%);
+background: linear-gradient(91deg, color(display-p3 1 1 1 / 0.51) 1.03%, color(display-p3 1 1 1 / 0.00) 97.67%);
+box-shadow: 20px 23px 79px 17px rgba(107, 113, 109, 0.25);
+box-shadow: 20px 23px 79px 17px color(display-p3 0.4245 0.4407 0.4274 / 0.25);
+backdrop-filter: blur(10.5px);
+transition: all 250ms ease;
+}
+
+.hide-txt {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: all 250ms ease;
+}
+
+
