@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'BerlinSansFB';
-  src: url('assets/BRLNSB.TTF') format('TTF'),
-       url('assets/BRLNSR.TTF') format('TTF');
+  src: url('assets/BRLNSB.TTF') format('truetype'),
+       url('assets/BRLNSR.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,8 +51,8 @@ p {
 }
 
 .about-box{
-    width: 500px;
-    height: 550px;
+    width: 550px;
+    height: 600px;
     flex-shrink: 0;
     border-radius: 106px;
     border: 5px solid rgba(255, 255, 255, 0.00);
@@ -60,6 +60,8 @@ p {
     box-shadow: 20px 23px 79px 17px rgba(108, 112, 109, 0.25);
     backdrop-filter: blur(10.5px);
     justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .about-box-cse-logo{
@@ -72,4 +74,12 @@ p {
     margin-top: 40px;
     width: 200px;
     height: auto;
+}
+
+.about-box p{
+    font-family: "Berlin Sans FB";
+    color: #0A69BD;
+    margin: 35px;
+    font-size: 27px;
+    text-align: justify;
 }
