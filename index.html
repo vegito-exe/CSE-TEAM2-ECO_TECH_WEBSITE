@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
     <link rel="icon" type="png/image" href="/assets/eco_tech_logo_colors.svg" > 
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header id="Home">
@@ -27,15 +28,49 @@
       <div>
         <h1 class="agenda">AGENDA</h1>
         <div class="container-cards">
-        <div class="div-l-arrow">
-         <img src="assets/arrowLeft.svg" alt="Left-Arrow">
-        </div>
-        <div class="div-cards">
-           
-        </div>
-        <div class="div-r-arrow">
-         <img src="assets/arrowRight.svg" alt="Right-Arrow">
-        </div>
+          <div >
+           <img id="left-arrow" class="div-arrow" src="assets/arrowLeft.svg" alt="Left-Arrow">
+          </div>
+          
+          <div  class="div-cards ">
+           <div id="div-cards1" class="card">
+            <p id="card-txt1" class="card-txt">
+            <span class="date">27 / 11 / 2025</span>
+            <span class="time">09h00 - 09h30</span>  Check-in
+            <span class="time">09h30 - 10h00</span> Cérémonie d'ouverture et Activité Icebreaker
+            <span class="time">10h00 - 12h00</span>Premier Challenge
+            <span class="time">12h00 - 14h00</span>Pause déjeuner
+            <span class="time">14h30</span> Deuxième Challenge
+            <span class="time">16h30 - 17h00</span>Pause café et fun Activités
+            </p>
+           </div>
+
+           <div id="div-cards2" class="glass"> 
+            <p id="card-txt2" class="card-txt hide-txt" >
+            <span class="time">21h</span>Dîner
+            <span class="time">00h00</span>Dépôt des livrables du Deuxième Challenge
+            <span class="date">28 / 11 / 2025</span>
+            <span class="time">00h30</span>Pause de minuit
+            <span class="time">01h00</span>Lancement du Troisième Challenge
+            <span class="time">7h - 7h30</span>Petit Déjeuner
+            <span class="time">11h</span>Dépôt des livrables du Troisième Challenge
+            </p>
+           </div>
+           <div id="div-cards3" class="glass">
+            <p id="card-txt3" class="card-txt hide-txt">
+            <span class="time">11h - 12h</span>Rangement et Pause Repos
+            <span class="time">12h00 - 13h00</span> Pause déjeuner
+            <span class="time">13h00 - 14h30</span> Présentations Finales devant le Jury
+            <span class="time">14h30 - 16h20</span> Fun Activités, Networking et Pause Café
+            <span class="time">16h30 - 17h</span> Cérémonie de Remise des Prix et Annonce des Gagnant
+            <span class="time">17h - 18h</span>            Clôture et rangement
+            </p>
+           </div>
+          </div>        
+
+          <div >
+           <img id="right-arrow" class="div-arrow" src="assets/arrowRight.svg" alt="Right-Arrow">
+          </div>
         </div>
       </div>
     </section>
