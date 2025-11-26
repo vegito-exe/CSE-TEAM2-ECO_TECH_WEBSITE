@@ -39,7 +39,7 @@ p {
     font-style: normal;
     font-weight: 400;
     margin: 0;
-    margin-bottom: 20;
+    margin-bottom: 100px;
 }
 
 .box-flex{
@@ -83,3 +83,71 @@ p {
     font-size: 27px;
     text-align: justify;
 }
+
+#Sponsors{
+    margin-top: 280px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+#Sponsors h1{
+    color: #0A69BD;
+    font-family: "Bagel Fat One";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.sponsor{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 5px solid rgba(255, 255, 255, 0.00);
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.51) 1.03%, rgba(255, 255, 255, 0.00) 97.67%);
+    box-shadow: 20px 23px 79px 17px rgba(108, 112, 109, 0.25);
+    backdrop-filter: blur(10.5px);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    background-color: #0A69BD; 
+    height: 135px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-img1{
+    position: absolute;
+    left: 20px;
+    height: 100px;
+    width: auto;
+}
+
+.footer-img2{
+    position: absolute;
+    right: 20px;
+    height: 110px;
+    width: auto;
+    padding-top: 8px;
+}
+
+footer p{
+    font-family: "Berlin Sans FB";
+    color: white;
+    font-size: 55px;
+}
+
+.contact img{
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
