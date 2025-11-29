@@ -252,3 +252,164 @@ h1{
   margin-bottom: 150px ;
 }
 
+
+#FAQ {
+    padding: 40px 20px;
+    position: relative;
+}
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    width: 64.1875rem;
+    padding: 0.25rem 0 5.25rem 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.6875rem;
+    flex-shrink: 0;
+    align-items: center ;
+}
+.picture-element {
+    width: 30.75rem;
+    height: 37.5625rem;
+    aspect-ratio: 492/601;
+    position: absolute;
+    right: 0;
+    top : 30% ;
+
+}
+
+.faq-title{
+    text-align: center;
+    font-size: 80px;
+    color: #006BC3;
+    margin-bottom: 40px;
+    font-family: 'Bagel Fat One';
+    width: 100%;
+    font-weight: bold;
+}
+
+.faq-item {
+    padding: 0 20px;
+    margin-bottom: 10px;
+    border-radius: 6.625rem;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.51) 1.03%, rgba(255, 255, 255, 0.00) 97.67%);
+    box-shadow: 20px 23px 79px 17px rgba(108, 112, 109, 0.25);
+    backdrop-filter: blur(10.5px);
+    width: 65rem;
+    height: 6rem;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.faq-item.active {
+    height: auto;
+    min-height: 12rem;
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.8) 1.03%, rgba(255, 255, 255, 0.3) 97.67%);
+    border-radius: 3rem;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+ 
+}
+
+.faq-question {
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0A69BD;
+    transition: color 0.3s ease;
+    font-family: "Berlin Sans FB Regular";
+    height: 6rem;
+    width: 100%;
+    box-sizing: border-box;
+ 
+}
+
+.faq-item.active .faq-question {
+    padding-bottom: 10px;
+    height: auto;
+    min-height: 6rem;
+
+}
+
+.faq-question:hover {
+    color: #042c4e;
+}
+
+.arrow {
+    font-size: 2rem;
+    font-weight: normal;
+    transition: transform 0.3s ease;
+    color: #666;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+    color: #042c4e;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+ 
+}
+
+.faq-answer {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    color: #666;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    opacity: 0;
+    font-family: "Berlin Sans FB Regular";
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.faq-item.active .faq-answer {
+    padding: 0 0 60px 0;
+    max-height: 200px;
+    opacity: 1;
+
+}
+.register-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    border-radius: 6.625rem;
+    border: 5px solid rgba(255, 255, 255, 0.00);
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.51) 1.03%, rgba(255, 255, 255, 0.00) 97.67%);
+    box-shadow: 20px 23px 79px 17px rgba(108, 112, 109, 0.25);
+    backdrop-filter: blur(10.5px);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0A69BD;
+    font-family: "Berlin Sans FB Regular";
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    display: block;
+    background: transparent;
+}
+
+.register-btn:hover {
+    background: linear-gradient(91deg, rgba(255, 255, 255, 0.8) 1.03%, rgba(255, 255, 255, 0.3) 97.67%);
+    color: #042c4e;
+    transform: translateY(-2px);
+    box-shadow: 20px 25px 85px 20px rgba(108, 112, 109, 0.3);
+    background: transparent;
+}
