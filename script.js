@@ -17,12 +17,6 @@ faqItems.forEach(item => {
     });
 });
 
-const registerBtn = document.querySelector('.register-btn');
-registerBtn.addEventListener('click', function(e) {
-    e.stopPropagation();
-    alert('Thank you for your interest! Registration will open soon.');
-});
-
 const right_arrow = document.getElementById("right-arrow")
 const left_arrow = document.getElementById("left-arrow")
 const card1 = document.getElementById("div-cards1")
